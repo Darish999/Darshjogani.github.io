@@ -537,6 +537,22 @@
     }
     .footer-text span { color: var(--accent); }
 
+
+    .project-preview {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 4px;
+      margin-bottom: 18px;
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+    .project-card:hover .project-preview {
+      border-color: rgba(0,212,170,0.4);
+      transform: scale(1.01);
+    }
+
     /* ANIMATIONS */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(30px); }
@@ -829,6 +845,7 @@
         <div class="projects-grid" id="projectsGrid">
           <a href="https://github.com/Darish999/Customer-Health-Intelligence" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Customer-Health-Intelligence/main/preview.png" alt="Customer-Health-Intelligence preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>AI · Banking Analytics</span></div>
             <div class="project-name">Customer Health Intelligence System</div>
             <div class="project-desc">End-to-end banking customer analytics platform — synthetic data generation, SAP-style ETL into MySQL, ML churn scoring (GBM), financial health scoring, KMeans segmentation, Claude API-powered natural language insights, and a full Streamlit dashboard with real-time filters and customer drill-down.</div>
@@ -846,6 +863,7 @@
           <!-- Existing GitHub Projects -->
           <a href="https://github.com/Darish999/Apple-Store-Insights" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Apple-Store-Insights/main/preview.png" alt="Apple-Store-Insights preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>Data Analysis</span></div>
             <div class="project-name">Apple Store Insights</div>
             <div class="project-desc">Exploratory data analysis on Apple App Store data — uncovering trends in ratings, categories, pricing, and developer performance to surface actionable insights.</div>
@@ -858,6 +876,7 @@
 
           <a href="https://github.com/Darish999/Youtube-Channel-Insights" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Youtube-Channel-Insights/main/preview.png" alt="Youtube-Channel-Insights preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>Data Visualization</span></div>
             <div class="project-name">YouTube Channel Insights</div>
             <div class="project-desc">Analytics pipeline pulling YouTube channel data to track engagement, growth trends, and content performance metrics with visual dashboards.</div>
@@ -870,6 +889,7 @@
 
           <a href="https://github.com/Darish999/Covid-19-Global-Vaccine-Tracker" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Covid-19-Global-Vaccine-Tracker/main/preview.png" alt="Covid-19-Global-Vaccine-Tracker preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>Public Health Analytics</span></div>
             <div class="project-name">COVID-19 Global Vaccine Tracker</div>
             <div class="project-desc">Global vaccination progress tracker with country-level breakdowns, time-series trend analysis, and interactive visualizations of rollout speed and coverage.</div>
@@ -882,6 +902,7 @@
 
           <a href="https://github.com/Darish999/Car-Dealership-Dashboard" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Car-Dealership-Dashboard/main/preview.png" alt="Car-Dealership-Dashboard preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>Business Intelligence</span></div>
             <div class="project-name">Car Dealership Dashboard</div>
             <div class="project-desc">Interactive BI dashboard for car dealership operations — tracking inventory, sales performance, revenue by model, and customer acquisition metrics.</div>
@@ -894,6 +915,7 @@
 
           <a href="https://github.com/Darish999/Sales-Insights-SQL" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Sales-Insights-SQL/main/preview.png" alt="Sales-Insights-SQL preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>SQL Analytics</span></div>
             <div class="project-name">Sales Insights — SQL</div>
             <div class="project-desc">End-to-end SQL analytics project — schema design, complex joins, window functions, and business KPI queries to extract actionable sales intelligence.</div>
@@ -906,6 +928,7 @@
 
           <a href="https://github.com/Darish999/Dynamic-Player-Manager" target="_blank" class="project-card">
             <div class="project-arrow">↗</div>
+            <img src="https://raw.githubusercontent.com/Darish999/Dynamic-Player-Manager/main/preview.png" alt="Dynamic-Player-Manager preview" class="project-preview" loading="lazy" />
             <div class="project-tag"><span>Python · OOP</span></div>
             <div class="project-name">Dynamic Player Manager</div>
             <div class="project-desc">Object-oriented Python application for managing sports player data — dynamic roster management, performance tracking, and statistical analysis.</div>
